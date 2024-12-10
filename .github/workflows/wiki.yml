@@ -1,7 +1,9 @@
 name: wiki
 on:
   push:
-    branches: [main]
+    branches: 
+      - main
+      - docs-updt
     paths:
       - wiki/**
       - .github/workflows/wiki.yml
