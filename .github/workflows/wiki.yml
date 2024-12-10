@@ -5,7 +5,7 @@ on:
       - main
       - docs-updt
     paths:
-      - wiki/**
+      - docs/**
       - .github/workflows/wiki.yml
 concurrency:
   group: wiki
